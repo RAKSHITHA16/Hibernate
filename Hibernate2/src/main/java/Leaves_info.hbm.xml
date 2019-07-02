@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class  name="com.opentext.Hib.dto.Leaves_info" table="Leaves_info">
+<id name="leave_type" type="java.lang.String">
+<column name="leave_type " />
+</id>
+<property name="no_of_leaves" type="int">
+<column name="no_of_leaves" />
+</property>
+
+<property name="description" type="java.lang.String">
+<column name="description" />
+</property>
+
+
+</class>
+</hibernate-mapping>
